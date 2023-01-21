@@ -1,5 +1,6 @@
 # PredictingNBAPlayerSalaries
 
+
 Abstract
 In the NBA, salaries are determined by several factors, 
 including the player's experience, their performance on the 
@@ -22,8 +23,8 @@ the NBA are an important part of the league, providing players
 with financial security and helping to create a competitive and 
 exciting league for fans.
 
-                  Introduction
-       Defining the Problem & Our Motivation
+Introduction
+Defining the Problem & Our Motivation
 The issue of NBA players being both overpaid and underpaid is a 
 complex one, and there are several reasons why it can be 
 a problem. First and foremost, there is a significant amount of 

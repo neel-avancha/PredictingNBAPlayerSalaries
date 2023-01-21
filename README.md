@@ -1,7 +1,7 @@
 # PredictingNBAPlayerSalaries
 
 
-                          Abstract
+                                                                             Abstract
 
 In the NBA, salaries are determined by several factors, 
 including the player's experience, their performance on the 

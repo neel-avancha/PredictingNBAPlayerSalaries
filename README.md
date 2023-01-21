@@ -61,7 +61,7 @@ it to maintain a fair and competitive environment
 
                                                                      Methodology
 
-                                                                  Data Acquisition
+                                                                   Data Acquisition
 
 We obtained two datasets from two different sources for this 
 project. We edited and compiled these two data sets into a single 
@@ -73,7 +73,7 @@ statistical category for the NBA for decades.
 2. Our second data set was from Hoops Hype and contained data 
 on NBA players’ salaries for the 2021-2022 NBA season. 
 
-                                                                    Data Preparation
+                                                                     Data Preparation
 
 We performed many data preparation steps on each dataset. First, we 
 deleted unwanted columns from each dataframe, and renamed some 
@@ -89,13 +89,13 @@ have salary information on. Lastly, we created our own column
 representing salary brackets of size $5,000,000 which spanned from 
 $0 to $50,000,000 and filled this in using each player’s salary.
 
-                                                                    Data Visualization
+                                                                     Data Visualization
 
 After cleaning and preparing all the data, we were able to create many different visualizations for our data. 
 ![image](https://user-images.githubusercontent.com/123276734/213894411-d0569759-60b3-4f0c-972a-b5aea87e8547.png)
 ![image](https://user-images.githubusercontent.com/123276734/213894414-6de4f5f8-cc06-4d78-a678-5b47934b5324.png)
 
-                                                                    Identifying Features
+                                                                     Identifying Features
 
 To identify features to use for our model, we began looking at the correlations between variables and Salary Bracket. We decided on using variables which had a correlation of 0.25 or greater with Salary Bracket in our model. There were quite a few features, including Age, Points, Rebounds, Assists, and many more.
 ![image](https://user-images.githubusercontent.com/123276734/213894437-ad36255f-c23d-477a-aa4a-e0d2efe6dbbe.png)

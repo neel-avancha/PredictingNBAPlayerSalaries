@@ -2,6 +2,7 @@
 
 
 Abstract
+
 In the NBA, salaries are determined by several factors, 
 including the player's experience, their performance on the 
 court, and the demand for their services. As a result, the 
@@ -24,7 +25,9 @@ with financial security and helping to create a competitive and
 exciting league for fans.
 
 Introduction
+
 Defining the Problem & Our Motivation
+
 The issue of NBA players being both overpaid and underpaid is a 
 complex one, and there are several reasons why it can be 
 a problem. First and foremost, there is a significant amount of 
@@ -57,7 +60,9 @@ it to maintain a fair and competitive environment
 
 
 Methodology
+
 Data Acquisition
+
 We obtained two datasets from two different sources for this 
 project. We edited and compiled these two data sets into a single 
 data frame, which we proceeded to use for our models.
@@ -67,7 +72,9 @@ Basketball Reference has been tracking almost every single
 statistical category for the NBA for decades.
 2. Our second data set was from Hoops Hype and contained data 
 on NBA players’ salaries for the 2021-2022 NBA season. 
+
 Data Preparation
+
 We performed many data preparation steps on each dataset. First, we 
 deleted unwanted columns from each dataframe, and renamed some 
 of the other remaining columns to be more descriptive. We deleted 
@@ -83,18 +90,22 @@ representing salary brackets of size $5,000,000 which spanned from
 $0 to $50,000,000 and filled this in using each player’s salary.
 
 Data Visualization
+
 After cleaning and preparing all the data, we were able to create many different visualizations for our data. 
 ![image](https://user-images.githubusercontent.com/123276734/213894411-d0569759-60b3-4f0c-972a-b5aea87e8547.png)
 ![image](https://user-images.githubusercontent.com/123276734/213894414-6de4f5f8-cc06-4d78-a678-5b47934b5324.png)
 
 Identifying Features
+
 To identify features to use for our model, we began looking at the correlations between variables and Salary Bracket. We decided on using variables which had a correlation of 0.25 or greater with Salary Bracket in our model. There were quite a few features, including Age, Points, Rebounds, Assists, and many more.
 ![image](https://user-images.githubusercontent.com/123276734/213894437-ad36255f-c23d-477a-aa4a-e0d2efe6dbbe.png)
 A heatmap visualizing the correlations between features is shown to the left. Some have much greater correlation than others, but all of them were used in the model.
 
 
 Results and Evaluation
+
 Model Selection
+
 The three models that we created were a K-NN Classification Model, Random Forest Classification Model, and a Support Vector Machine. For each of them, we tuned the hyperparameters and found the accuracy based on the best hyperparameters. The accuracy was reported as a decimal which represented the percentage of players who were placed into the correct salary bracket. The hyperparameters that we tuned and corresponding accuracies are in the table below. 
 
 ![image](https://user-images.githubusercontent.com/123276734/213894455-2415848b-5887-4161-afce-ae2db5280863.png)
